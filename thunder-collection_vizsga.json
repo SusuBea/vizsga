@@ -1,0 +1,55 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "vizsga",
+    "dateExported": "2024-04-17T17:16:30.202Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9ccbc464-9dc9-462b-b295-924d36f7d652",
+            "colId": "2415451e-4be7-47cb-a968-465899b5ff6b",
+            "containerId": "",
+            "name": "getTesztek",
+            "url": "tesztek",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-17T16:44:47.297Z",
+            "modified": "2024-04-17T16:48:27.270Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"id\":1,\"kerdes\":\"A pap\\u00edrt milyen sz\\u00edn\\u0171 szeelkt\\u00edv kuk\\u00e1ba gy\\u0171jtj\\u00fck?\",\"v1\":\"k\\u00e9k\",\"v2\":\"piros\",\"v3\":\"fekete\",\"v4\":\"z\\u00f6ld\",\"helyes\":\"k\\u00e9k\",\"kategoriaId\":1,\"created_at\":\"2024-04-17T16:46:43.000000Z\",\"updated_at\":\"2024-04-17T16:46:43.000000Z\",\"kategoria\":{\"id\":1,\"kategorianev\":\"Term\\u00e9szetv\\u00e9delem\",\"created_at\":\"2024-04-17T16:46:42.000000Z\",\"updated_at\":\"2024-04-17T16:46:42.000000Z\"}}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b5926384-14cf-4917-969b-5c30790580fd",
+            "colId": "2415451e-4be7-47cb-a968-465899b5ff6b",
+            "containerId": "",
+            "name": "get_Tesztek_Kategoria_Id",
+            "url": "tesztek/kategoria/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-17T16:49:03.557Z",
+            "modified": "2024-04-17T16:49:49.801Z",
+            "headers": []
+        },
+        {
+            "_id": "856f6e1d-2cbb-4212-a1bc-2489a252f3d0",
+            "colId": "2415451e-4be7-47cb-a968-465899b5ff6b",
+            "containerId": "",
+            "name": "getKategoria",
+            "url": "kategoria",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-17T16:50:06.958Z",
+            "modified": "2024-04-17T16:52:32.728Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8000/api/"
+        }
+    }
+}
